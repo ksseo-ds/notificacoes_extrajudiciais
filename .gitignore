@@ -1,0 +1,32 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ambiente virtual
+venv/
+.env
+*.env
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Saídas geradas
+notificacoes/*.docx
+notificacoes/*.pdf
+
+# Planilhas locais
+planilhas/*.xlsx
+
+# Modelos de documentos
+modelo/*.docx
+notificacoes/*
+# Backups do Word
+~$*.docx
+
+# Editor (VSCode, PyCharm etc)
+.vscode/
+.idea/
